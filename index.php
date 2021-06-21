@@ -12,7 +12,7 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
 
@@ -21,7 +21,8 @@
 
   <title>Brayyan Eddrey - DWI</title>
 
-<link href="./style.css" rel="stylesheet"></head>
+<link href="style.css" rel="stylesheet">
+<link href="card.css" rel="stylesheet"></head>
 
 <body> <!-- Add your content of header -->
 <header>
@@ -42,8 +43,8 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="./index.html" title="">Home</a></li>
-          <li><a href="./project.html" title="">Contáctanos</a></li>
+          <li><a href="index.php" title="">Home</a></li>
+          <li><a href="contacto.php" title="">Contáctanos</a></li>
         </ul>
       </div> 
     </div>
@@ -51,12 +52,23 @@
 </header>
 
 <!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container">
+  <div class="hero-full-container background-image-container">
     <div class="container">
+      <font size="14" name="Tempus Sans ITC" color="white">
+        <marquee>SALUDOS CORDIALES TICsitos</marquee>
+      </font>
       <div class="row">
-        <div class="col-xs-12">
-          <h1>Saludos</h1>
-          <marquee behavior="ALTERNATE"><p><h1>Cordiales</h1></p></marquee>
+        <div class="container2">
+          <div class="card-container">
+            <div class="header">
+                <img src="assets/images/1.jpg">
+              <h3>Desarrollo Web Integral</h3>
+            </div>
+            <div class="descripcion">
+              <p>El proyecto a desarrollar en esta materia durante el cuatrimestre es un sistema de votaciones en linea, enfocado a las elecciones estudiantiles, proyectos universitarios, equipos de trabajo y/o profesores de la Universidad Tecnólogica de la Selva.</p>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
